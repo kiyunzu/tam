@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Geo Media</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="geo.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="geo.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-container">
+    <!-- Left: Logo & Toggle -->
+    <div class="header-top">
+      <div class="logo">TamStudios</div>
+      <div class="menu-toggle" id="menuToggle">
+        <i id="menuIcon" class="fas fa-bars"></i>
+      </div>
+    </div>
+
+    <!-- Center: Nav -->
+    <nav id="mainNav" class="mainNav">
+      <ul>
+        <li><a href="#" class="nav-link active" data-section="home">Home</a></li>
+        <li>
+          <a href="#" class="nav-link" data-section="about">About</a>
+          <ul class="downdrop">
+            <li><a href="#our-team">Our Team</a></li>
+            <li><a href="#mission">Mission</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" class="nav-link" data-section="portfolio">Portfolio</a>
+          <ul>
+            <li><a href="wedding.html">Weddings</a></li>
+            <li><a href="baby.html">Baby Shower</a></li>
+            <li><a href="studio.html">Studio Shoot</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="birthday.html">Birthday</a></li>
+            <li><a href="dowry.html">Dowry/Ruracio</a></li>
+          </ul>
+        </li>
+        <li><a href="#" class="nav-link" data-section="services">Services</a></li>
+        <li><a href="#" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Right: Social Icons -->
+    <div class="social-box desktop-visible">
+      <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://tiktok.com" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+      <a href="https://wa.me/2547XXXXXXX" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+
+  <!-- Mobile Wrapper -->
+  <div class="mobile-menu-wrapper" id="mobileWrapper">
+    <!-- Cloned nav + social for mobile here -->
+      <nav id="mainNav" class="mainNav">
+        <ul>
+          <li><a href="#" class="nav-link active" data-section="home">Home</a></li>
+          <li>
+            <a href="#" class="nav-link" data-section="about">About</a>
+            <ul class="downdrop">
+              <li><a href="#our-team">Our Team</a></li>
+              <li><a href="#mission">Mission</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" class="nav-link" data-section="portfolio">Portfolio</a>
+            <ul>
+              <li><a href="wedding.html">Weddings</a></li>
+              <li><a href="baby.html">Baby Shower</a></li>
+              <li><a href="studio.html">Studio Shoot</a></li>
+              <li><a href="event.html">Events</a></li>
+              <li><a href="birthday.html">Birthday</a></li>
+              <li><a href="dowry.html">Dowry/Ruracio</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="nav-link" data-section="services">Services</a></li>
+          <li><a href="#" class="nav-link" data-section="contact">Contact</a></li>
+        </ul>
+         
+     </nav>
+       <div class="social-box">
+            <a href="https://facebook.com" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://tiktok.com" target="_blank" title="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="https://wa.me/2547XXXXXXX" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>  
+  </div>
+</header>
+
+
+
+
+  <section id="home" class="section active">
+      <section class="hero">
+  <!-- Background Video -->
+        <video autoplay muted loop playsinline class="bg-video">
+          <source src="./img/top1.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <!-- Content Overlay -->
+        <div class="hero-content">
+          <h1>YOUR GO-TO EVENT PHOTOGRAPHERS!</h1>
+          <p>At TamStudios, we capture the essence of events in the most enchanting way.
+            You can trust us to deliver the best results with precision & artistry.</p>
+        <button id="booking">LET'S CAPTURE YOUR STORY!</button>
+        </div>
+      </section>
+
+          <section class="intro-section">
+            <h1>WELCOME TO <span>TamStudios</span></h1>
+            <div class="services-container">
+              <div class="service-box">
+                <i class="fas fa-camera-retro"></i>
+                <h3>Say Cheese!</h3>
+                <p>
+                  Capture professional photos of yourself and your loved ones by simply
+                  looking at your reflection and using a small clicker.
+                </p>
+              </div>
+
+              <div class="service-box">
+                <i class="fas fa-remote"></i>
+                <h3>Click, Click, Click</h3>
+                <p>
+                  Our studio offers a minimalist space with professional lighting and
+                  magic mirrors, giving you full creative control.
+                </p>
+              </div>
+
+              <div class="service-box">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Get Ready</h3>
+                <p>
+                  For your convenience, we have a dressing room and makeup area inside
+                  the studio.
+                </p>
+              </div>
+            </div>
+       </section>
+       <!-- Photography Section -->
+<section  class="media-section">
+  <h2>Photography</h2>
+  <div class="services-container">
+    <div class="service-box">
+      <img src="./img/ch4.jpg" alt="Studio Shoot">
+      <h3>Studio Shoot</h3>
+      <p>Capture perfect portraits and creative shots in our well-lit professional studio.</p>
+        <a href="studio.html" class="gallery-btn">View Gallery</a>
+    </div>
+    <div class="service-box">
+      <img src="./img/bd5.jpg" alt="Wedding">
+      <h3>Wedding</h3>
+      <p>Preserve unforgettable wedding moments with elegant and cinematic photography.</p>
+      <a href="wedding.html" class="gallery-btn">View Gallery</a>
+    </div>
+    <div class="service-box">
+      <img src="./img/bd3.jpg" alt="Birthday">
+      <h3>Birthday</h3>
+      <p>Celebrate milestones with fun, colorful birthday photography sessions.</p>
+       <a href="birthday.html" class="gallery-btn">View Gallery</a>
+    </div>
+  </div>
+</section>
+
+<!-- Videography Section -->
+<section  class="media-section">
+  <h2>Videography</h2>
+  <div class="services-container">
+    <div class="service-box">
+      <img src="./img/bb5.jpg" alt="Podcast">
+      <h3>Podcast</h3>
+      <p>Record high-quality video podcasts with pro audio and lighting setup.</p>
+      <a href="podcast.html" class="gallery-btn">View Gallery</a>
+    </div>
+    <div class="service-box">
+      <img src="./img/bb6.jpg" alt="Dowry">
+      <h3>Dowry</h3>
+      <p>Document traditional dowry ceremonies in a respectful and artistic way.</p>
+       <a href="dowry.html" class="gallery-btn">View Gallery</a>
+    </div>
+    <div class="service-box">
+      <img src="./img/bb9.jpg" alt="Baby Shower">
+      <h3>Baby Shower</h3>
+      <p>Capture the joy and love at baby showers with cinematic videography.</p>
+       <a href="baby.html" class="gallery-btn">View Gallery</a>
+
+    </div>
+  </div>
+</section>
+
+<section id="other-services" class="dual-service-section">
+  <h2>Other Services</h2>
+  <div class="dual-columns">
+    <!-- Cyber Services -->
+    <div class="service-column">
+      <h3>Cyber Services</h3>
+      <ul class="service-list">
+        <li>Booking Design</li>
+        <li>Magazine</li>
+        <li>Printing</li>
+        <li>Online Services (KRA, HELB, NTSA, Passport)</li>
+      </ul>
+    </div>
+
+    <!-- Graphic Design -->
+    <div class="service-column">
+      <h3>Graphic Design</h3>
+      <ul class="service-list">
+        <li>Roll Up Banners</li>
+        <li>Posters</li>
+        <li>Business Cards</li>
+        <li>Brochures</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section">
+  <h2 class="section-title">Contact Us</h2>
+  <div class="contact-wrapper">
+    <!-- Left Side: Info + Form -->
+    <div class="contact-left">
+      <h3>We Are Here For You</h3>
+      <p>
+        Thank you for completing the form below. We will be contacting you shortly to hear about your vision for your portraits.<br><br>
+        Don’t like forms? Reach us through the contacts below.
+      </p>
+
+      <div class="contact-methods">
+        <p>📞 <a href="tel:9073503390">907-350-3390</a></p>
+        <p>📧 <a href="mailto:sanguineportraiture@yahoo.com">sanguineportraiture@yahoo.com</a></p>
+      </div>
+
+      <form class="contact-form">
+        <input type="text" placeholder="First and Last Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <textarea placeholder="Tell us about your vision..." rows="4"></textarea>
+
+        <input type="text" placeholder="How Did You Hear About Us? (Optional)">
+        <input type="text" placeholder="When do you need your portraits? (Optional)">
+
+        <fieldset>
+          <legend>What style of shoot are you looking for?</legend>
+          <label><input type="checkbox"> Headshot</label>
+          <label><input type="checkbox"> Fine Art Session</label>
+          <label><input type="checkbox"> Portrait / Modern Session</label>
+          <label><input type="checkbox"> On-Location Branding</label>
+          <label><input type="checkbox"> Large Group Vanity Fair Style Session</label>
+        </fieldset>
+
+        <label for="budget">What is Your Budget for Portraits?</label>
+        <select id="budget">
+          <option value="">-- Select --</option>
+          <option value="under-100">Below $100</option>
+          <option value="100-300">$100 - $300</option>
+          <option value="300-500">$300 - $500</option>
+          <option value="over-500">$500+</option>
+        </select>
+
+        <button type="submit">Submit</button>
+        <p class="disclaimer">By clicking Submit, you agree to share your info with Sanguine Portraiture who agrees to use it according to their privacy policy.</p>
+      </form>
+    </div>
+
+    <!-- Right Side: Image -->
+    <div class="contact-right">
+      <img src="./img/st8.jpg" alt="Portrait Photo Stack" class="contact-img">
+    </div>
+  </div>
+</section>
+
+
+
+
+  </section>
+  <section class="section" id="about">
+      <h2>About Us</h2>
+
+  <!-- Mission Section -->
+  <div class="mission-box" id="mission">
+    <div class="mission-text">
+      <h3>Our Mission</h3>
+      <p>
+       Our mission at TamStudios is to creatively capture and preserve life’s<br> most meaningful moments through high-quality photography and videography. We aim to deliver visually compelling stories that reflect the uniqueness of every client, blending artistic vision with professional excellence to create timeless memories.
+      </p>
+    </div>
+    <div class="mission-image" >
+      <img src="./img/st2.jpg" alt="Mission">
+    </div>
+  </div>
+
+  <!-- Our Team Section -->
+  <div class="team-section" id="our-team">
+    <h3>Our Team</h3>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="./img/st1.jpg" alt="Photographer 1">
+        <h4>Jane Mwangi</h4>
+        <p>Lead Photographer</p>
+      </div>
+      <div class="team-member">
+        <img src="./img/st5.jpg" alt="Photographer 2">
+        <h4>Samuel Otieno</h4>
+        <p>Creative Director</p>
+      </div>
+      <div class="team-member">
+        <img src="./img/st8.jpg" alt="Photographer 3">
+        <h4>Emily Wanjiru</h4>
+        <p>Videographer</p>
+      </div>
+    </div>
+  </div>
+  </section>
+  <section class="section" id="portfolio">
+
+  </section>
+  <section class="section" id="services">
+      <section id="our-services" class="services-section">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+
+          <!-- Photography -->
+          <div class="service-card" id="photography">
+            <h3>📸 Photography</h3>
+            <ul>
+              <li>Studio Shoots</li>
+              <li>Indoor & Outdoor Shoots</li>
+              <li>Birthdays</li>
+              <li>Anniversaries</li>
+              <li>Baby Showers</li>
+            </ul>
+          </div>
+
+          <!-- Videography -->
+          <div class="service-card" id="videography">
+            <h3>🎥 Videography</h3>
+            <ul>
+              <li>Events</li>
+              <li>Weddings</li>
+              <li>Ruracio / Dowry</li>
+              <li>Podcasts</li>
+            </ul>
+          </div>
+
+          <!-- Graphic Design -->
+          <div class="service-card" id="graphic-design">
+            <h3>🎨 Graphic Design</h3>
+            <ul>
+              <li>Roll-up Banners</li>
+              <li>Posters</li>
+              <li>Business Cards</li>
+              <li>Brochures</li>
+            </ul>
+          </div>
+
+          <!-- Cyber Services -->
+          <div class="service-card" id="cyber-services">
+            <h3>💻 Cyber Services</h3>
+            <ul>
+              <li>Book Design</li>
+              <li>Magazines</li>
+              <li>Printing</li>
+              <li>Online Services (KRA, HELB, NTSA, Passport)</li>
+            </ul>
+          </div>
+
+          <!-- Frames & Mounts -->
+          <div class="service-card" id="frame-mounts">
+            <h3>🖼️ Frames & Mounts</h3>
+            <ul>
+              <li>Custom Framing</li>
+              <li>Art Mounting</li>
+              <li>Portrait Displays</li>
+            </ul>
+          </div>
+
+        </div>
+     </section>
+
+  </section>
+  <section class="section" id="contact">
+      <section class="contact-section">
+          <h2 class="section-title">Contact Us</h2>
+          <div class="contact-wrapper">
+            <!-- Left Side: Info + Form -->
+            <div class="contact-left">
+              <h3>We Are Here For You</h3>
+              <p>
+                Thank you for completing the form below. We will be contacting you shortly to hear about your vision for your portraits.<br><br>
+                Don’t like forms? Reach us through the contacts below.
+              </p>
+
+              <div class="contact-methods">
+                <p>📞 <a href="tel:9073503390">907-350-3390</a></p>
+                <p>📧 <a href="mailto:sanguineportraiture@yahoo.com">sanguineportraiture@yahoo.com</a></p>
+              </div>
+
+              <form class="contact-form">
+                <input type="text" placeholder="First and Last Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <textarea placeholder="Tell us about your vision..." rows="4"></textarea>
+
+                <input type="text" placeholder="How Did You Hear About Us? (Optional)">
+                <input type="text" placeholder="When do you need your portraits? (Optional)">
+
+                <fieldset>
+                  <legend>What style of shoot are you looking for?</legend>
+                  <label><input type="checkbox"> Headshot</label>
+                  <label><input type="checkbox"> Fine Art Session</label>
+                  <label><input type="checkbox"> Portrait / Modern Session</label>
+                  <label><input type="checkbox"> On-Location Branding</label>
+                  <label><input type="checkbox"> Large Group Vanity Fair Style Session</label>
+                </fieldset>
+
+                <label for="budget">What is Your Budget for Portraits?</label>
+                <select id="budget">
+                  <option value="">-- Select --</option>
+                  <option value="under-100">Below $100</option>
+                  <option value="100-300">$100 - $300</option>
+                  <option value="300-500">$300 - $500</option>
+                  <option value="over-500">$500+</option>
+                </select>
+
+                <button type="submit">Submit</button>
+                <p class="disclaimer">By clicking Submit, you agree to share your info with Sanguine Portraiture who agrees to use it according to their privacy policy.</p>
+              </form>
+            </div>
+
+            <!-- Right Side: Image -->
+            <div class="contact-right">
+              <img src="./img/st8.jpg" alt="Portrait Photo Stack" class="contact-img">
+            </div>
+          </div>
+       </section>
+
+  </section>
+  <section class="section" id="portfolio">
+      <h2 class="section-title">Our Portfolio</h2>
+      <div class="portfolio-grid">
+        <!-- Wedding -->
+        <div class="portfolio-item">
+          <img src="./img/z4.jpg" alt="Wedding">
+          <h3>Weddings</h3>
+          <a href="wedding.html" class="view-btn">View More</a>
+        </div>
+
+        <!-- Baby Shower -->
+        <div class="portfolio-item">
+          <img src="./img/z5.jpg" alt="Baby Shower">
+          <h3>Baby Shower</h3>
+          <a href="baby.html" class="view-btn">View More</a>
+        </div>
+
+        <!-- Studio Shoot -->
+        <div class="portfolio-item">
+          <img src="./img/ch7.jpg" alt="Studio Shoot">
+          <h3>Studio Shoot</h3>
+          <a href="studio.html" class="view-btn">View More</a>
+        </div>
+
+        <!-- Events -->
+        <div class="portfolio-item">
+          <img src="./img/ze1.jpg" alt="Events">
+          <h3>Events</h3>
+          <a href="event.html" class="view-btn">View More</a>
+        </div>
+
+        <!-- Birthday -->
+        <div class="portfolio-item">
+          <img src="./img/z1.jpg" alt="Birthday">
+          <h3>Birthday</h3>
+          <a href="birthday.html" class="view-btn">View More</a>
+        </div>
+
+        <!-- Dowry -->
+        <div class="portfolio-item">
+          <img src="./img/z3.jpg" alt="Dowry">
+          <h3>Dowry / Ruracio</h3>
+          <a href="dowry.html" class="view-btn">View More</a>
+        </div>
+      </div>
+  </section>
+
+ 
+  
+
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <h3>TamStudios</h3>
+      <p>Capturing stories, moments & memories through the lens.</p>
+    </div>
+
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#photography">Photography</a></li>
+        <li><a href="#videography">Videography</a></li>
+        <li><a href="#services">Other Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h4>Connect</h4>
+      <div class="social-icons">
+        <a href="https://facebook.com/YourPageName" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com/YourUsername" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@YourTikTokHandle" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://wa.me/2547XXXXXXXX" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 TamStudios. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>
